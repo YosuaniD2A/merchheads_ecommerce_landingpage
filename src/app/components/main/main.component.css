@@ -1,0 +1,31 @@
+.image-bg{
+    background-image: url("../../../assets/images/bg_1.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.opacity-layer{
+    min-height: 100vh;
+    background-color: rgba(47, 48, 47, 0.548);
+}
+
+.delimitador{
+    margin:auto;    /* Centramos el vídeo */
+}
+
+.contenedor{
+    height:0px;
+    width:100%;
+    padding-top:56.25%; /* Relación: 16/9 = 56.25% */
+    position:relative;
+}
+
+.contenedor iframe{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+}
